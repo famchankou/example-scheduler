@@ -1,0 +1,19 @@
+{
+  "name": "example-scheduler",
+  "description": "",
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.6",
+    "jest": "^27.2.4"
+  },
+  "dependencies": {
+    "date-fns": "^2.24.0",
+    "knex": "^0.95.11",
+    "sqlite3": "^5.0.1"
+  },
+  "engines": {
+    "node": "15.x"
+  }
+}
